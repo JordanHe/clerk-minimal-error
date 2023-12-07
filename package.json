@@ -1,7 +1,13 @@
 {
-  "name": "t3-turbo-and-clerk",
+  "name": "intvl2",
   "private": true,
-  "packageManager": "pnpm@8.10.4",
+  "workspaces": [
+    "apps/expo",
+    "apps/nextjs",
+    "packages/api",
+    "packages/db",
+    "packages/config/*"
+  ],
   "scripts": {
     "build": "turbo build",
     "clean": "rm -rf node_modules",
