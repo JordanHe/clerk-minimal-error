@@ -1,5 +1,7 @@
 ## Setup
 
+npm install 
+
 Add in the clerk publishable key in apps/expo/app/\_layout.tsx line 27
 Add in a clerk publishable key in apps/nextjs/src/pages/\_app.tsx line 23
 
